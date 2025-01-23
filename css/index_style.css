@@ -1,0 +1,94 @@
+* {
+  --primary-color: #3b66f5;
+  --secondery-color: #666;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  margin: 1.8rem;
+  font-family: "Lora", serif, serif;
+  letter-spacing: 0.1rem;
+}
+
+.novel-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.novel-pic {
+  width: 25rem;
+  height: 35rem;
+  border-radius: 5%;
+}
+.novel-tit-auth {
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.novel-cont-rank {
+  background-color: #f6f7fde5;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  font-size: 1.5rem;
+  justify-content: center;
+  margin: 1rem 0.3rem;
+  max-width: 100rem;
+  padding: 1.3rem;
+  text-align: center;
+}
+
+.novel-cont-rank div {
+  flex-grow: 1;
+  color: black;
+}
+.novel-cont-rank h2 {
+  margin: 0.2rem 0;
+}
+
+.novel-cont-rank a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+/* novel description */
+.novel-desc {
+  font-size: 1.8rem;  
+}
+
+.novel-desc h2 {
+    margin-top: 4rem;
+    margin-bottom: 0;
+    padding-bottom: 1rem;
+}
+
+.novel-desc-para {
+    color: var(--secondery-color);
+    line-height: 3rem;
+    max-height: 20rem;
+    overflow: scroll;
+}
+
+/* Chapters index */
+.novel-content {
+    font-size: 1.8rem;  
+}
+
+.novel-content h2 {
+    margin-top: 4rem;
+    margin-bottom: 0;
+}
+
+.chapters-list {
+    list-style: none;
+    height: 50rem;
+    overflow: scroll;
+    padding-left: 1.2rem;
+}
+.chapters-list a {
+    text-decoration: none;
+    color: var(--secondery-color);
+}

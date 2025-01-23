@@ -1,0 +1,58 @@
+* {
+    --primary-color: red;
+    --text-color:#666;
+
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+    box-sizing: border-box;
+}
+/* paragraphes */
+.chap-cont {
+    font-family: "Lora", serif, serif;
+    color: var(--text-color);
+    background-color: black;
+    padding: 2rem;
+    overflow: hidden;
+}
+
+.chap-tile-style {
+    font-size: 2rem;
+}
+
+.chap-para-style {
+    font-size: 2.7rem;
+    line-height: 1.6875;
+    margin: .8rem 0;
+    text-size-adjust: 100%;
+}
+
+/* chapter nav */
+a {
+    text-decoration: none;
+
+}
+
+.chap-nav {
+    display: flex;
+    justify-content: center;
+}
+
+.chap-nav a {
+    background: var(--text-color);
+    border-radius: 20px;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 1.3rem;
+    margin: 1rem;
+    padding: 1.5rem;
+    text-align: center;
+    width: 100%;
+    border: 0;
+    font-weight: bolder;
+}
+
